@@ -6,11 +6,19 @@
   "author": "codeyusan <codeyusan@163.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack build --config task/webpack.development.js"
+    "build": "webpack --config task/webpack.development.js"
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^9.0.0",
+    "eslint": "^8.26.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "lodash": "^4.17.21",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
